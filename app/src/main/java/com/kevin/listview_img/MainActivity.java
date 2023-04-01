@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
     ListView listtxt;
 
-    int image[] = {img,img_1,img_2,img_3,img_4,img_5,};
+    int image[] = {R.drawable.img_1,img_2,img_3,img_4,img_5,img_6,img_7,img_8,img_9,img_10,img_11,img_12,img_13,img_14,img_15,};
 
-    String name[] = {"1","2","3","4","5","6"};
-    @Override
+    String name[] = {"Surat","Ahmedabad","Vadodara","Rajkot","Mumbai","Pune","Chennai","Bangalore","Hyderabad","Kolkata","Delhi","Jaipur","Lucknow","Kanpur","Nagpur"};
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
