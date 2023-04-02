@@ -37,7 +37,7 @@ public class NameListAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
 
-        view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.viewlist,viewGroup,false);
+        view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.viewlist, viewGroup, false);
         ImageView img = view.findViewById(R.id.img);
         TextView txt = view.findViewById(R.id.txt);
         Glide.with(viewGroup.getContext()).load(image[i]).into(img);
